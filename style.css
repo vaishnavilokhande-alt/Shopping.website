@@ -1,0 +1,184 @@
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand{
+    color:#ff4d6d !important;
+    font-size:30px;
+}
+
+.nav-link{
+    margin-left:15px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#ff4d6d !important;
+}
+
+/* Hero */
+.hero-section{
+    min-height:100vh;
+    background:#fff5f7;
+    padding-top:120px;
+}
+
+.hero-section h1{
+    font-size:65px;
+    font-weight:700;
+    color:#222;
+}
+
+.hero-section p{
+    font-size:18px;
+    margin:20px 0;
+    color:#555;
+}
+
+.hero-btn{
+    background:#ff4d6d;
+    color:#fff;
+    padding:14px 35px;
+    border-radius:40px;
+    font-weight:600;
+}
+
+.hero-btn:hover{
+    background:#222;
+    color:#fff;
+}
+
+.hero-img{
+    border-radius:25px;
+    max-height:550px;
+    object-fit:cover;
+}
+
+/* Common */
+.small-title{
+    color:#ff4d6d;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.main-btn{
+    background:#ff4d6d;
+    color:#fff;
+    border:none;
+    border-radius:30px;
+    padding:12px 28px;
+}
+
+.main-btn:hover{
+    background:#222;
+    color:#fff;
+}
+
+/* About */
+.about-section h2{
+    font-size:45px;
+    margin:15px 0;
+}
+
+.about-section p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* Products */
+.products-section{
+    background:#fff;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+}
+
+.product-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.product-content{
+    padding:25px;
+}
+
+.price{
+    color:#ff4d6d;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+/* Services */
+.services-section{
+    background:#fff5f7;
+}
+
+.service-card{
+    background:#fff;
+    padding:40px 25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.icon{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+/* Contact */
+.contact-section{
+    background:#fff;
+}
+
+.form-control{
+    padding:15px;
+    border-radius:12px;
+}
+
+/* Footer */
+.footer{
+    background:#222;
+    color:#fff;
+    padding:50px 0;
+}
+
+.footer h3{
+    color:#ff4d6d;
+    margin-bottom:15px;
+}
+
+.social-icons a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.social-icons a:hover{
+    color:#ff4d6d;
+}
+</style>
